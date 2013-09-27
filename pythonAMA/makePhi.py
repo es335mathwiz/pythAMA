@@ -1,7 +1,4 @@
 # This function calculates the phi matrix used in the AMA algorithm.
-#
-# Created by: Jason Sockin
-# Date: September 10, 2013
 
 # Import the numpy package
 from numpy import *
