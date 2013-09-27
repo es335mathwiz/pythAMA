@@ -118,16 +118,6 @@ def Amalg(h,neq,nlag,nlead,condn,uprbnd):
 
     phi = makePhi(q,originalH,nlag,nlead,neq)
     F = makeF(phi,originalH,q,nlag,nlead,neq)
-    print()
-    print("phi =")
-    print()
-    print(phi)
-    print()
-    print()
-    print("F = ")
-    print()
-    print(F)
-    print()
 
     # If the right-hand block of q is invertible, compute the reduced form.
 
